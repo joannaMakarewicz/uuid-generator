@@ -1,4 +1,7 @@
 @import "./Frame.css";
+@import "./Header.css";
+@import "./Content.css";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 html {
@@ -23,18 +26,5 @@ body {
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
-  padding: 16px;
-}
-
-.Header {
-  color: #ffff;
-  letter-spacing: 1.5px;
-  padding: 16px;
-}
-
-.Content {
-  color: #ffff;
-  line-height: 1.5;
-  max-width: 80vw;
   padding: 16px;
 }
