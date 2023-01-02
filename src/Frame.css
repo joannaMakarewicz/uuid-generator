@@ -1,0 +1,30 @@
+.Frame {
+    background: #f1faee;
+    border: 1px solid #ffff;
+    border-radius: 16px;
+    margin:26px auto;
+    max-width: 60vw;
+    min-width: 300px;
+    padding: 16px;
+    text-align: center;
+  }
+  .Frame a {
+    background: #22223b;
+    border-radius: 16px;
+    color: #ffff;
+    margin-left: 16px;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .Frame div {
+    background: #c9ada7;
+    padding: 1vw;
+    font-weight: 700;
+  }
+  .Frame p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 0 0;
+    padding: 16px 0;
+  }
