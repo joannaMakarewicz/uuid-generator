@@ -3,7 +3,7 @@
     border: 1px solid #ffff;
     border-radius: 16px;
     margin:26px auto;
-    max-width: 60vw;
+    max-width: 80vw;
     min-width: 300px;
     padding: 16px;
     text-align: center;
@@ -27,4 +27,10 @@
     justify-content: center;
     margin: 16px 0 0 0;
     padding: 16px 0;
+  }
+
+  @media screen and (min-width: 1025px) {
+    .Frame {
+      max-width: 60vw;
+    }
   }
